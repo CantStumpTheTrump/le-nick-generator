@@ -3,5 +3,5 @@ from random import choice
 len = 10
 name = 'r'
 for i in range(len):
-     name += choice ('abcdefghijklmnopqrstuvwxyz')+('esh')+choice ('12345678910111213')
+     name += choice ('abcdefg')+('esh')+choice ('12345')
 print(name)
